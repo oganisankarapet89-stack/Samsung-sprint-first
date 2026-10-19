@@ -1,4 +1,4 @@
-package org.example;
+package org.example; // я немного поменял концепцию жизней у персонажа
 
 import java.util.Random;
 import java.util.Scanner;
@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class Person {
     Random random = new Random();
     Scanner scanner = new Scanner(System.in);
-    private int answer = random.nextInt(1, 8);
+    private int answer = random.nextInt(1, 8); // здесь выдаётся рандомное число и сохраняю в перменную answer.
     private String image = "*";
-    private int lives = answer;
+    private int lives = answer; // и значение переменной answer сверху передаю в переменную жизни и теперь у нашего персонажа рандомное количесвто жизней от 1 до 8
     private int x;
     private int y;
 
@@ -43,7 +43,7 @@ public class Person {
     }
 
 
-    public boolean move(int choice, int sizeBoard) {
+    public boolean move(int choice, int sizeBoard) { // это движение(без именений)
         int x = this.x;
         int y = this.y;
 

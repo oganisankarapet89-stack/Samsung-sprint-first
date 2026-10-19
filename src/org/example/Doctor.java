@@ -1,4 +1,4 @@
-package org.example;
+package org.example;  // я тут просто создал нового персонажа в целом. Его главная цель хилить нашего главного персонажа когда он его встречает, это прописано в main(в строке 77)
 
 public class Doctor {
     private String image = "✓";

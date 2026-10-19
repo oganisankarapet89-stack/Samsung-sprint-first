@@ -1,4 +1,4 @@
-package org.example;
+package org.example;  //я создал класс замок и дальше просто указываю конструктор, сеттеры и геттеры (для кого что нужно)
 
 public class Castle {
     private int x;
